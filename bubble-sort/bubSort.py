@@ -7,7 +7,7 @@ def bubSort(arr):
                               if arr[j] > arr[j+1]:
                                         arr[j], arr[j+1] = arr[j+1], arr[j]
                 
-arr = [4, 43, 22, 92, 78, 15, 50]
+arr = [5, 7, 1, 0, 6, 12, 11]
 print("Before Sorting, the array is:", arr)
 
 bubSort(arr)
